@@ -13,7 +13,16 @@ sum = 1+2+3+...+10 = 55 */
 
 #include <stdio.h>
 int main() {
+  int num, i, sum;
+  printf("Enter the value from keybord : ");
+  scanf("%d",&num);
+  for(i=1; i<=num; i++)
+  {
+     sum +=i;   
+  }
+
+  printf("Sum : %d",sum);
+  
   
   return 0;
 }
-
